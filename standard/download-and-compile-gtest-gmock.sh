@@ -15,7 +15,7 @@ cd build
 cmake	-DBUILD_SHARED_LIBS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DGTEST_HAS_PTHREAD=1 \
-	-DINSTALL_GTEST=OFF \
+	-DINSTALL_GTEST=ON \
 	-Dgtest_build_samples=ON \
 	-Dgtest_build_tests=ON \
 	-Dgmock_build_tests=ON \
