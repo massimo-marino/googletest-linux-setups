@@ -12,6 +12,9 @@ git checkout origin/v1.10.x
 # compile
 mkdir build
 cd build
+#
+# the option -DINSTALL_GTEST=ON allows the call to 'make install' once the code
+# has been compiled
 cmake	-DBUILD_SHARED_LIBS=ON \
 	-DCMAKE_BUILD_TYPE=Release \
 	-DGTEST_HAS_PTHREAD=1 \
