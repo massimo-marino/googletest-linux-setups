@@ -1,5 +1,5 @@
 #
-# install-gtest-gmock-1.8.sh
+# download-compile-and-install-gtest-gmock-1.8.sh
 #
 # clean
 rm -rf googletest
